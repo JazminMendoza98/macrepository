@@ -1,0 +1,73 @@
+$gris: rgb(146, 145, 145);
+$negro: black;
+$blanco: white;
+$font: 'Abel', sans-serif;
+$margin: 100px;
+$font2: 'Open Sans', sans-serif;
+$size: 30px;
+$decoration: none;
+$display: flex;
+
+footer {
+    font-family: $font;
+    color: $gris;
+    margin-left: $margin;
+}
+
+.titulito {
+    font-family: $font2;
+    font-size: $size;
+    letter-spacing: 5px;
+    margin-left: 8px;
+    color: $blanco;
+    font-size: 30px;
+    text-align: left;
+}
+
+#cajita1 {
+    margin-left: 7px;
+    background-color: $negro;
+}
+
+a {
+    font-family: $font;
+    font-size: 17px;
+    margin-top: 40px;
+    text-decoration: $decoration;
+    color: $gris;
+}
+
+a:hover {
+    color: $negro;
+    font-weight: bold;
+}
+
+.spotify {
+    display: $display;
+    justify-content: center;
+}
+
+.disco {
+    font-family: font2;
+    letter-spacing: 5px;
+    margin-left: 20px;
+    color: $blanco;
+}
+
+.todo {
+    background-color: $negro;
+}
+
+p {
+    color: $blanco;
+    font-family: $font;
+    font-size: 25px;
+}
+
+.disco2 {
+    color: $blanco;
+    font-family: $font;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
