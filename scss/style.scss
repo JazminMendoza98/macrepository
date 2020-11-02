@@ -5,8 +5,14 @@ $font: 'Abel', sans-serif;
 $margin: 100px;
 $font2: 'Open Sans', sans-serif;
 $size: 30px;
+$size2: 20px;
+$size3: 50px;
 $decoration: none;
 $display: flex;
+$center: center;
+$left: left;
+$pad: 100px;
+$wrap: wrap;
 
 footer {
     font-family: $font;
@@ -42,6 +48,7 @@ a:hover {
     font-weight: bold;
 }
 
+/* Inicio discografía */
 .spotify {
     display: $display;
     justify-content: center;
@@ -71,3 +78,101 @@ p {
     margin-top: 10px;
 }
 
+/* Fin discografía */
+
+/* Inicio index */
+
+.imagen2 {
+    height: 330px;
+    width: 96%;
+}
+.imagen2:hover {
+    transform: scale(1.05);
+}
+
+img {
+    margin: 1.66%;
+}
+
+.heighttt {
+    height: 400px;
+}
+
+.tributo {
+    font-size: $size2;
+    font-family: $font;
+    color: $negro;
+    text-align: $center;
+}
+
+/* Fin indez */
+
+/* Inicio Videos */
+.boxvideo {
+    background-color: $negro;
+    justify-content: $center;
+    padding: $pad;
+    display: $display;
+    flex-wrap: $wrap;
+}
+
+.hola {
+    margin: $size3;
+    margin-top: -20px;
+}
+
+.texto {
+    color: $blanco;
+    text-align: $left;
+    font-family: $font;
+    font-size: $size2;
+    margin-top: 1px;
+}
+
+.boxvideo2 {
+    background-color: $blanco;
+    justify-content: $center;
+    padding: $pad;
+    display: $display;
+    flex-wrap: $wrap;
+}
+
+.hola2 {
+    margin: $size3;
+    margin-top: -20px;
+}
+
+.texto2 {
+    color: $negro;
+    text-align: $left;
+    font-family: $font;
+    font-size: $size2;
+    margin-top: 1px;
+}
+
+.boxvideo3 {
+    background-color: $negro;
+    justify-content: $center;
+    padding: $pad;
+    display: $display;
+    flex-wrap: $wrap;
+}
+
+.hola3 {
+    margin: $size3;
+    margin-top: -20px;
+}
+
+.texto3 {
+    color: $blanco;
+    text-align: $left;
+    font-family: $font;
+    font-size: $size2;
+    margin-top: 1px;
+}
+
+.suscripción {
+    border-radius: 1px;
+    position: fixed;
+    right: 0px;
+}
