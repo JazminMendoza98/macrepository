@@ -1,8 +1,43 @@
 @charset "UTF-8";
+@media only screen and (min-width: 961px) {
+  .navito {
+    margin-top: 45px;
+  }
+
+  .him {
+    margin-top: -20px;
+  }
+
+  .img2 {
+    width: 200px;
+    height: auto;
+  }
+
+  .video {
+    height: 300px;
+    width: 600px;
+  }
+}
+@media only screen and (max-width: 400px) {
+  .him {
+    height: 100px;
+  }
+
+  .img2 {
+    width: 150px;
+    height: 200px;
+  }
+
+  .video {
+    height: 50px;
+    width: 400px;
+  }
+}
 footer {
   font-family: "Abel", sans-serif;
-  color: #929191;
-  margin-left: 100px;
+  background-color: black;
+  padding: 20px;
+  color: white;
 }
 
 .titulito {
@@ -23,7 +58,6 @@ footer {
 a {
   font-family: "Abel", sans-serif;
   font-size: 17px;
-  margin-top: 40px;
   text-decoration: none;
   color: #929191;
 }
@@ -33,40 +67,23 @@ a:hover {
   font-weight: bold;
 }
 
-/* Inicio discografía */
+/* Inicio Discografía */
+.parrafito2 {
+  font-size: 25px;
+  font-family: "Abel", sans-serif;
+  color: black;
+  margin-top: -40px;
+  text-align: center;
+}
+
 .spotify {
   display: flex;
   justify-content: center;
 }
 
-.disco {
-  font-family: font2;
-  letter-spacing: 5px;
-  margin-left: 20px;
-  color: white;
-}
-
-.todo {
-  background-color: black;
-}
-
-p {
-  color: white;
-  font-family: "Abel", sans-serif;
-  font-size: 25px;
-}
-
-.disco2 {
-  color: white;
-  font-family: "Abel", sans-serif;
-  font-weight: bold;
-  margin-top: 10px;
-}
-
 /* Fin discografía */
 /* Inicio index */
 .imagen2 {
-  height: 330px;
   width: 96%;
 }
 
@@ -89,7 +106,7 @@ img {
   text-align: center;
 }
 
-/* Fin indez */
+/* Fin index */
 /* Inicio Videos */
 .boxvideo {
   background-color: black;
@@ -159,5 +176,76 @@ img {
   position: fixed;
   right: 0px;
 }
+
+.video {
+  height: 300px;
+  min-width: 600px;
+}
+
+/* Fin Videos */
+/* Inicio About */
+.him {
+  display: flex;
+  justify-content: center;
+}
+
+.parrafito {
+  padding-left: 50px;
+  padding-right: 50px;
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 17px;
+  color: black;
+}
+
+.titulo {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 40px;
+}
+
+.frase {
+  text-align: center;
+  font-family: "Abel", sans-serif;
+  font-size: 20px;
+  color: black;
+}
+
+/* Fin About */
+/* Inicio Contacto */
+.todis {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+  font-family: "Abel", sans-serif;
+}
+
+.imagencita {
+  flex-grow: 1;
+  flex-shrink: 1;
+  flex-basis: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.form {
+  min-width: 400px;
+  flex: 1;
+  text-align: center;
+  padding: 50px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 5px;
+  margin: 12px;
+  border: none;
+  border-radius: 10px;
+  border-bottom: 3px solid black;
+}
+
+/* Fin Contacto */
 
 /*# sourceMappingURL=style.css.map */

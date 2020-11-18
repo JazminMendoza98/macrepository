@@ -14,11 +14,45 @@ $left: left;
 $pad: 100px;
 $wrap: wrap;
 
+@media only screen and (min-width: 961px) {
+    .navito { 
+         margin-top: 45px;
+         
+}
+    .him { 
+         margin-top: -20px;
+}
+    .img2 {
+         width: 200px;
+         height: auto;
+}
+    .video {
+         height: 300px;
+         width: 600px;
+}
+}
+
+@media only screen and (max-width: 400px) {
+    .him { 
+         height: 100px;
+}
+    .img2 {
+        width: 150px;
+        height: 200px;
+    }
+    .video {
+        height: 50px;
+        width: 400px;
+}
+}
+
 footer {
     font-family: $font;
-    color: $gris;
-    margin-left: $margin;
+    background-color: $negro;
+    padding: 20px;
+    color: $blanco;
 }
+
 
 .titulito {
     font-family: $font2;
@@ -38,7 +72,6 @@ footer {
 a {
     font-family: $font;
     font-size: 17px;
-    margin-top: 40px;
     text-decoration: $decoration;
     color: $gris;
 }
@@ -48,34 +81,18 @@ a:hover {
     font-weight: bold;
 }
 
-/* Inicio discografía */
-.spotify {
-    display: $display;
-    justify-content: center;
-}
-
-.disco {
-    font-family: font2;
-    letter-spacing: 5px;
-    margin-left: 20px;
-    color: $blanco;
-}
-
-.todo {
-    background-color: $negro;
-}
-
-p {
-    color: $blanco;
-    font-family: $font;
+/* Inicio Discografía */
+.parrafito2 {
     font-size: 25px;
+    font-family: $font;
+    color: $negro;
+    margin-top: -40px;
+    text-align: $center;
 }
 
-.disco2 {
-    color: $blanco;
-    font-family: $font;
-    font-weight: bold;
-    margin-top: 10px;
+.spotify {
+    display: flex;
+    justify-content: $center;
 }
 
 /* Fin discografía */
@@ -83,7 +100,6 @@ p {
 /* Inicio index */
 
 .imagen2 {
-    height: 330px;
     width: 96%;
 }
 .imagen2:hover {
@@ -105,7 +121,7 @@ img {
     text-align: $center;
 }
 
-/* Fin indez */
+/* Fin index */
 
 /* Inicio Videos */
 .boxvideo {
@@ -176,3 +192,76 @@ img {
     position: fixed;
     right: 0px;
 }
+
+.video {
+    height: 300px;
+    min-width: 600px;
+}
+
+/* Fin Videos */
+
+/* Inicio About */
+.him {
+    display: $display;
+    justify-content: $center;
+}
+
+.parrafito {
+    padding-left: $size3;
+    padding-right: $size3;
+    text-align: $center;
+    font-family: $font;
+    font-size: 17px;
+    color: $negro;
+}
+
+.titulo {
+    text-align: $center;
+    font-family: $font;
+    font-size: 40px;
+}
+
+.frase {
+    text-align: $center;
+    font-family: $font;
+    font-size: $size2;
+    color: $negro;
+}
+
+/* Fin About */
+
+/* Inicio Contacto */
+.todis {
+    display: $display;
+    align-items: $center;
+    flex-wrap: $wrap;
+    justify-content: $center;
+    font-family: $font;
+}
+
+.imagencita {
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-basis: 0%;
+    display: $display;
+    flex-wrap: $wrap;
+    justify-content: $center;
+}
+
+.form {
+    min-width: 400px;
+    flex: 1;
+    text-align: $center;
+    padding: $size3
+}
+
+.form-input {
+    width: 100%;
+    padding: 5px;
+    margin: 12px;
+    border: none;
+    border-radius: 10px;
+    border-bottom: 3px solid $negro;
+}
+
+/* Fin Contacto */
