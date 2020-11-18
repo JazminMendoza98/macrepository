@@ -1,9 +1,11 @@
 $gris: rgb(146, 145, 145);
 $negro: black;
 $blanco: white;
-$font: 'Abel', sans-serif;
+$font: 'Abel',
+sans-serif;
 $margin: 100px;
-$font2: 'Open Sans', sans-serif;
+$font2: 'Open Sans',
+sans-serif;
 $size: 30px;
 $size2: 20px;
 $size3: 50px;
@@ -15,35 +17,41 @@ $pad: 100px;
 $wrap: wrap;
 
 @media only screen and (min-width: 961px) {
-    .navito { 
-         margin-top: 45px;
-         
-}
-    .him { 
-         margin-top: -20px;
-}
+    .navito {
+        margin-top: 45px;
+    }
+
+    .him {
+        margin-top: -20px;
+    }
+
     .img2 {
-         width: 200px;
-         height: auto;
-}
-    .video {
-         height: 300px;
-         width: 600px;
-}
+        width: 200px;
+        height: auto;
+    }
+
+    .video {        
+        height: 300px;        
+        width: 600px;    
+    }
+ 
 }
 
-@media only screen and (max-width: 400px) {
-    .him { 
-         height: 100px;
-}
-    .img2 {
-        width: 150px;
+@media only screen and (max-width: 750px) {
+    .him {
         height: 200px;
     }
-    .video {
-        height: 50px;
-        width: 400px;
-}
+
+    .img2 {
+        width: 150px;
+        display: flex;
+        justify-content: center;       
+    }
+
+    .video {        
+        height: 250px;        
+        width: 350px;    
+    }
 }
 
 footer {
@@ -102,6 +110,7 @@ a:hover {
 .imagen2 {
     width: 96%;
 }
+
 .imagen2:hover {
     transform: scale(1.05);
 }
@@ -193,11 +202,6 @@ img {
     right: 0px;
 }
 
-.video {
-    height: 300px;
-    min-width: 600px;
-}
-
 /* Fin Videos */
 
 /* Inicio About */
@@ -243,13 +247,10 @@ img {
     flex-grow: 1;
     flex-shrink: 1;
     flex-basis: 0%;
-    display: $display;
-    flex-wrap: $wrap;
-    justify-content: $center;
 }
 
 .form {
-    min-width: 400px;
+    min-width: 450px;
     flex: 1;
     text-align: $center;
     padding: $size3
@@ -262,6 +263,10 @@ img {
     border: none;
     border-radius: 10px;
     border-bottom: 3px solid $negro;
+}
+
+.img2 {
+    box-align: center;      
 }
 
 /* Fin Contacto */
